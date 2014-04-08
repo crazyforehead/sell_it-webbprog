@@ -1,0 +1,307 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, sumgmary,
+time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+body {
+     line-height: auto;
+     font-family: 'Carrois Gothic', sans-serif;
+     background-color: #eee;
+     overflow-y: scroll;    
+}
+ol, ul {
+     list-style: none;
+}
+blockquote, q {
+     quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+     content: '';
+     content: none;
+}
+table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+strong{
+     font-weight: bold;
+}
+p {
+     color: #fff;
+}
+#wrapper {
+     width: 960px;
+     margin: 0 auto;
+}
+h1 {
+     font-size: 20px;
+}
+h2 {
+     font-size: 18px;
+}
+h3 {
+     font-size: 16px;
+}
+h4 {
+     font-size: 14px;
+}
+
+/*HEADER 
+-------------------------------------*/
+
+header{
+     background-color: #fff;
+     padding: 0px;
+     border-bottom: 1px solid #ddd;
+     border-top: 5px solid #ccc;
+     -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+     -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+     box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.2);
+}
+.logo{
+     width: 12%;
+     transition: 0.3s;
+}
+.logo:hover{
+     opacity: 0.7;
+     transition: 0.3s;
+}
+/*CONTENT 
+-------------------------------------*/
+input{
+     border-radius: 5px;
+     border: 1px solid #777;
+}
+.searchbox {
+     padding: 10px;
+     width: 80%;
+}
+#content {
+     margin: 0 auto;
+     width: 700px;
+     border: 0px solid black;
+}
+#annons{
+     width: 100%;
+}
+#searchbox {
+     text-align: center;
+     padding: 30px 0;
+}
+#annonsbox1, #annonsbox2, #annonsbox3 {
+     float: left;
+     width: 100%;
+}
+#annonsbox1 {
+     height: 40px;
+}
+#rubrikbox {
+     float: left;
+}
+.right {
+     float: right;
+}
+#datumbox {  
+     float: left;
+     color: #666;
+     padding: 0 10px;
+     text-align: center;
+}
+#prisbox {
+     float: right;
+     background-color: #f24d1a;
+     color: #fff;
+     padding: 0 10px;
+     text-align: center;
+}
+#datumbox, #rubrikbox, #prisbox {
+     line-height: 40px;
+}
+#annonsbox2 {
+     background-color: #888;
+     width: 100%;
+     float: left;
+}
+#bildbox {
+     float: left;
+}
+#textbox {
+     padding: 10px;
+     float: left;
+}
+#annonsbox3 {
+     background-color: #666;
+}
+#kommentarbox {
+     text-align: center;
+}
+/* -----------========= Register ==========--------------*/
+.regTop{
+    border: 0px solid black;
+     padding: 3px 4% 3px 4%;
+     width: 50%;
+     margin: 0 auto;
+     text-align: right;
+}
+.regBottom{
+     border: 0px solid black;
+     padding: 3px 0 3px 0;
+     width: 50%;
+     margin: 0 auto
+
+}
+#fname,
+#ename{
+     width: 65%;
+
+}
+#pNr{
+     width: 25%; 
+}
+#adress{
+     width: 60%;
+     float:left;
+}
+#pNr,
+#adress,
+#fname,
+#ename,
+#stor,
+#p1,
+#p2,
+#p3,
+#p4{
+     margin: 10px 0 5px 0;
+     height: 20px;
+     padding: 10px 0 10px 10px;
+}
+#p2,
+#p1,
+#stor,
+#p3,
+#p4{
+
+     width: 97%;
+}
+#regbox
+p{
+     color: red;
+     font-size: .8em;
+}
+#submit{
+     height: 30px;
+     width: 70px;
+     margin-top: 10px;
+}
+.regProfil{
+     float: left;
+     height: 90px;
+     margin-top:15px;
+}
+#regbox{
+     width: 100%;
+     margin: 0 auto;
+     background-color: #F8F8F8;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0px 0px 15px #aaa;
+     }
+.headline{
+     text-align:left;
+     float: left;
+     font-size: 2em;
+     margin-bottom: 5px;
+}
+.step{
+     text-align:right;
+     float:right;
+     margin: 10px;
+}
+.error{
+     color: red;
+     font-size: .6em;
+}
+.logg{
+     padding: 3px;
+     width: 100%;
+     color: white;
+     background-color: black;
+     font-size: .7em;
+}
+.loginDiv{
+     border: 0px solid black;
+     cursor: pointer;
+}
+.loginDiv p{
+     color: white;
+}
+.loginEx{
+     position: absolute;
+     right: 0px;
+     top: 54px;
+     width: 235px;
+     height: auto;
+     display: none;
+     box-shadow: 0px 2px 3px #ccc;
+     padding: 5px;
+     border-radius: 0 0 5px 5px;
+     background-color: #fff;
+}
+#login-form{
+     background-color: #fff;
+}
+/*--------------============ NAV =======----------------*/
+nav{
+     border: 0px solid black;
+     float: right;
+
+}
+nav img{
+     width: 25px;
+     padding: 11px 10px;
+}
+nav img:hover {
+     /*border-top: 5px solid #fff;*/
+     box-shadow: 0 0 5px #ccc;
+     background-color: #fff;
+     box-shadow: 0px 14px 16px -4px #f4f4f4 inset;
+     border-radius: 0px 0px 1px 1px;
+     opacity: 1;
+
+}
+/*-------------============= logg in =======------------------*/
+#indexUser,
+#indexPass{
+     margin: 5px 0 0 10px;
+     padding: 3px;
+     background: #fff;
+}
+#LogginButton{
+     border: none;
+     background-color: #333d41;
+     cursor: pointer;
+     color: white;
+}
+#LogginButton:hover{
+     color: #f14d1a;
+}
